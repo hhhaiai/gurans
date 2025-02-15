@@ -24,7 +24,7 @@ debug = False
 app = FastAPI(
     title="gurans",
     description="High-performance API service",
-    version="1.0.0.0|2025.2.15"
+    version="1.0.0|2025.2.15"
 )
 
 
