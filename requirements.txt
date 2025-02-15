@@ -1,0 +1,21 @@
+# 基础HTTP请求库
+requests>=2.31.0
+urllib3>=2.0.7
+
+# FastAPI相关
+fastapi>=0.109.0
+uvicorn>=0.27.0
+starlette>=0.36.0
+
+# 服务器组件
+uvloop>=0.19.0
+httptools>=0.6.1
+
+# 定时任务
+apscheduler>=3.10.4
+
+# Token处理
+tiktoken>=0.5.2
+
+# 类型提示支持
+typing>=3.7.4.3
