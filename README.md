@@ -27,6 +27,15 @@ docker run -d --name gurans_demo \
   --cap-add=SYS_ADMIN \
   gurans_demo
 
+
+docker run -d \
+  --name gurans_api \
+  --restart always \
+  -p 5010:7860 \
+  -m 2g \
+  -e DEBUG=false \
+  ghcr.io/hhhaiai/gurans:latest
+
 ```
 
 * test
